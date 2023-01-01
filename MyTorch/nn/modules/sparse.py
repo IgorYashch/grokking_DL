@@ -19,5 +19,4 @@ class Embedding(Module):
         self.parameters.append(self.weight)
     
     def forward(self, input):
-        print(input, '-------')
         return self.weight[input]
