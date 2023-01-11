@@ -1,7 +1,7 @@
 name = 'SGD'
 __all__ = ['SGD']
 
-# класс оптимизатора
+# Класс простейшего оптимизатора (стохастический градиентный спуск)
 class SGD(object):
     def __init__(self, parameters, alpha=0.1):
         self.parameters = parameters
