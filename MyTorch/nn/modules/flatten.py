@@ -1,7 +1,7 @@
 from .module import Module
 
 
-__all__ = ['Flatten']
+__all__ = ["Flatten"]
 
 
 # просто передедываем в [BATCH_SIZE, -1]

@@ -9,4 +9,4 @@ from .conv import *
 from .flatten import *
 
 
-NAME = 'modules'
+NAME = "modules"
